@@ -1,0 +1,71 @@
+# Compilados y clases de Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Directorio de salida de Maven
+/target/
+target/
+
+# Archivos de configuración de IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+.eclipse/
+.settings/
+.classpath
+.project
+.factorypath
+
+# IntelliJ IDEA
+*.idea/
+*.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Drivers de Selenium (gestionados por WebDriverManager)
+drivers/
+geckodriver
+chromedriver
+msedgedriver
+
+# Reportes de pruebas
+test-output/
+surefire-reports/
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Archivos de propiedades locales
+local.properties
