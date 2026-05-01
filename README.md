@@ -1,0 +1,2 @@
+# Practica5_Aseguramiento_Calidad_Software
+Automatizacion de pruebas mediante seleniumWebDriver
