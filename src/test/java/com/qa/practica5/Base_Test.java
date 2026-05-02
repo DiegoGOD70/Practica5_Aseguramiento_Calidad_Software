@@ -23,7 +23,7 @@ public class Base_Test {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
-    // Método auxiliar para evitar repetir el login en cada prueba
+    // Método auxiliar para no repetir el login en cada prueba
     public void realizarLoginExitoso() {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username"))).sendKeys("Admin");
